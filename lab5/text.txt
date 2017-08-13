@@ -1,0 +1,17 @@
+# VERY primitive file transfer. There is no protocol--when the
+# server receives a connection request it immediately begins saving
+# the data into a file. When data stop arriving or the connection
+# times out, the file is closed and listening resumes.
+# As a precaution, this can handle at most three file transfers before
+# quitting. As a further precaution, no more than 10K bytes are allowed
+# in any file.
+
+
+# VERY primitive file transfer. There is no protocol--when the
+# server receives a connection request it immediately begins saving
+# the data into a file. When data stop arriving or the connection
+# times out, the file is closed and listening resumes.
+# As a precaution, this can handle at most three file transfers before
+# quitting. As a further precaution, no more than 10K bytes are allowed
+# in any file.
+

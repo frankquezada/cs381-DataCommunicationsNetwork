@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>
+Selective Repeat Protocol Demo
+</TITLE>
+<style type="text/css">
+H1	{font-family:Arial, sans-serif; color:#8989DB; 
+	 font-size:13pt; font-weight:normal;}
+P	{font-family:Arial, sans-serif; font-size:10pt;}
+LI	{font-family:Arial, sans-serif; font-size:10pt;}
+a:link	{color:#000066;}
+a:visited	{color:#666666;}
+</style>
+</HEAD>
+<BODY bgcolor="white">
+<h1>Selective Repeat Protocol Demo (revised 2/2012)</h1>
+<P>
+The sending window limits the sender to a maximum of 5 outstanding,
+unacked data packets.  To create new data packets, click "Send New". This
+action will begin moving data packets between sender and receiver.
+To simulate loss, select a moving data packet or ack, and then press
+"Kill Packet/Ack".  Use "Pause" and "Resume" to make selecting easier. 
+Speed up or slow down the simulation
+by clicking "Faster" or "Slower".  BE PATIENT for retransmissions (i.e., timeouts).
+<br>
+<br>
+
+		<APPLET CODE="SelectiveRepeat.class" WIDTH="650" HEIGHT="650" VIEWASTEXT>
+			<PARAM NAME="vertical_offset" VALUE="50">
+			<PARAM NAME="vertical_clearance" VALUE="225">
+			<PARAM NAME="total_packets" VALUE="20">
+			<PARAM NAME="timer_time_out" VALUE="30">
+
+			<PARAM NAME="packet_height" VALUE="18">
+			<PARAM NAME="window_length" VALUE="5">
+			<PARAM NAME="horizontal_offset" VALUE="45">
+			<PARAM NAME="packet_width" VALUE="8">
+		</APPLET>
+<BR clear=all>
+<P>
+<B><A target="_new" HREF="SelectiveRepeat.java">View Java Applet Code</A>
+<p>Written by M.Shatley & C. Hoffman for Prof. <a href=http://www.cis.udel.edu/~amer/> Paul D. Amer </a>, U of Delaware (2008).  Updated by C. Hoffman (2012).
+<P>
+</BODY>
+</HTML>

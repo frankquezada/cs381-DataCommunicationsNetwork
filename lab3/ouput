@@ -1,0 +1,27 @@
+Output 1:
+
+quezadaf@aldenv107:~/quezadafcs381s2016/lab3$ python quezadaf-lab3.py 
+Sending: ping # 1
+PING # 1 1 0.000114917755127
+Sending: ping # 2
+PING # 2 2 5.19752502441e-05
+Sending: ping # 3
+Requested Time Out
+Sending: ping # 4
+Requested Time Out
+Sending: ping # 5
+Requested Time Out
+Sending: ping # 6
+PING # 6 6 0.000310897827148
+Sending: ping # 7
+Requested Time Out
+Sending: ping # 8
+PING # 8 8 0.000130891799927
+Sending: ping # 9
+PING # 9 9 7.00950622559e-05
+Sending: ping # 10
+PING # 10 10 6.69956207275e-05
+Number of successes: 6
+Number of Unsuccessful: 4
+Average: 0.000124295552572
+
